@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3">
+   <file name="DLLs\Medialooks.Codecs.Core.x64.dll">
+      <comClass clsid="{96EB1C14-4CC0-4830-9CC3-F064196B2626}" description="MFSplitter Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1C64-4CC0-4830-9CC3-F064196B2626}" description="MFDecoder Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1C74-4CC0-4830-9CC3-F064196B2626}" description="MFMuxer Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1C94-4CC0-4830-9CC3-F064196B2626}" description="MFEncoder Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Codecs.FFM.x64.dll">
+      <comClass clsid="{9285699B-E779-4B2E-92CA-26DDEE01AA2A}" description="MFCaptionsDecoder Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1F14-4CC0-4830-9CC3-F064196B2626}" description="MFSplitterFFM Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1F23-4CC0-4830-9CC3-F064196B2626}" description="MFMuxerFFM Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1F26-4CC0-4830-9CC3-F064196B2626}" description="MFEncoderFFM Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1F64-4CC0-4830-9CC3-F064196B2626}" description="MFDecoderFFM Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Codecs.GPU.x64.dll">
+      <comClass clsid="{2CBD671C-8106-49EC-8ABB-9D67CF025301}" description="MFDecoderNV Class" threadingModel="Neutral"/>
+      <comClass clsid="{BE272839-CA83-42CA-931A-8273EFBDA9AE}" description="MFEncoderQS Class" threadingModel="Neutral"/>
+      <comClass clsid="{BF23862C-7C7B-4CE3-8FE7-4CA5171D624E}" description="MFDecoderQS Class" threadingModel="Neutral"/>
+      <comClass clsid="{D0C31F85-8131-48FD-82DA-1D2249FFBD53}" description="MFEncoderNV Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Codecs.SRT.x64.dll">
+      <comClass clsid="{96EB1D23-4CC0-4830-9CC3-F064196B2623}" description="MFMuxerSRT Class" threadingModel="Neutral"/>
+      <comClass clsid="{96EB1D14-4CC0-4830-9CC3-F064196B2623}" description="MFSplitterSRT Class" threadingModel="Neutral"/>    
+   </file>
+   <file name="DLLs\Medialooks.Composer.x64.dll">
+      <comClass clsid="{34CE4E64-30ED-4811-A3A2-80738A171F20}" description="Medialooks MComposer Class" threadingModel="Neutral" progid="MPlatform.MComposer.1">
+         <progid>MPlatform.MComposer</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Device.AJA.x64.dll">
+      <comClass clsid="{23FACFC8-45A2-4AF6-97E8-C075056A55E8}" description="MFCaptureAJA2 Class" threadingModel="Neutral"/>
+      <comClass clsid="{298AEA80-B023-4B6E-B6F9-BB9E55911852}" description="MFRendererAJA2 Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.BF.x64.dll">
+      <comClass clsid="{C5997D38-884C-49D5-A430-699B573836C4}" description="MFRenderBF Class" threadingModel="Neutral"/>
+      <comClass clsid="{FDB76080-E089-41D5-9C04-545B9E07992F}" description="MFCaptureBF Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.DC.x64.dll">
+      <comClass clsid="{3376E267-34DF-4825-8207-3D30E99FF6CA}" description="MFRendererDC Class" threadingModel="Neutral"/>
+      <comClass clsid="{E674F74E-5F25-4DA0-8F72-EB62C1B39B2E}" description="MFCaptureDC Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.YN.x64.dll">
+      <comClass clsid="{440C2BD3-5992-4BC5-91C1-53227C2878CC}" description="MFRendererYN Class" threadingModel="Neutral"/>
+      <comClass clsid="{4D36E96C-E325-11CE-BFC1-08002BE10318}" description="MFCaptureYN Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.DS.x64.dll">
+      <comClass clsid="{03AC4D14-7C4C-410C-8429-FC58BDB54FFE}" description="MFLiveDS Class" threadingModel="Neutral"/>
+      <comClass clsid="{604BE365-B73E-4FCF-88EA-45FE1A2A0A0F}" description="MFLiveBMD Class" threadingModel="Neutral"/>
+      <comClass clsid="{604BE376-B73E-4FCF-88EA-45FE1A2A0A0F}" description="MFLiveBMDS Class" threadingModel="Neutral"/>
+      <comClass clsid="{C08A798D-5CCF-4251-B22F-27AAA7ECABF3}" description="Medialooks MFRendererBMD Class" threadingModel="Neutral" progid="MFormats.MFRendererBMD.1">
+         <progid>MFormats.MFRendererBMD</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Device.ASIO.x64.dll">
+      <comClass clsid="{A47A88A9-5D15-4EC4-B97E-54F166CD46F0}" description="MFRendererASIO Class" threadingModel="Neutral"/>
+      <comClass clsid="{CA3CB018-75AB-4E22-B2C9-7AB31115024D}" description="MFReceiverASIO Class" threadingModel="Neutral"/>      
+   </file>
+   <file name="DLLs\Medialooks.MLLog.x64.dll">
+      <comClass clsid="{943CC7FA-C87B-4ECC-A313-E44DADDB64D8}" description="MLLog Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.BMD.x64.dll">
+      <comClass clsid="{3CE67C12-045D-4BC3-B858-51DCC43B8A3B}" description="MFCaptureBMD2 Class'" threadingModel="Neutral"/>
+      <comClass clsid="{27E96760-6C12-4EA0-81A6-66CFB9CC0EB0}" description="MFRendererBMD2 Class" threadingModel="Neutral"/>      
+   </file> 
+   <file name="DLLs\Medialooks.Device.DT.x64.dll">
+      <comClass clsid="{4EF4FB7B-D93F-44B7-B6A8-5869CCEC8F37}" description="MFCaptureDT Class" threadingModel="Neutral"/>
+      <comClass clsid="{A0A21412-A5F3-471B-87D8-A7AE4F5B4367}" description="MFRenderDT Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.HTML.x64.dll">
+      <comClass clsid="{70E3F3BF-00E1-4DC2-BE5D-8FF15C877C9C}" description="MFReceiverCEF Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.MW.x64.dll">
+      <comClass clsid="{3DE42C28-40E8-45BF-8949-22CF44523C02}" description="MFCaptureMW Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.NDI.x64.dll">
+      <comClass clsid="{7B1C4AB9-A967-4EC1-BBD2-C10806D32682}" description="MFRendererNDI Class" threadingModel="Neutral"/>
+      <comClass clsid="{A896A5FB-126E-4D11-98F0-13EBC6BE2023}" description="MFReceiverNDI Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.SCR.x64.dll">
+      <comClass clsid="{B8E10465-DDD9-42EC-9F3A-8B5D2954F48F}" description="MFCaptureSCR Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.Windows.x64.dll">
+      <comClass clsid="{8D658696-2CE5-4F57-AE93-95FA733650EF}" description="MFCaptureWindows Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Device.SL.x64.dll">
+      <comClass clsid="{452E0371-E29E-4F2B-9810-9AD7A6C48102}" description="MFRenderSL2 Class" threadingModel="Neutral"/>
+      <comClass clsid="{C631082E-DBE4-48E0-AA89-672C5B10CCDE}" description="MFCaptureSL2 Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.File.x64.dll">
+      <comClass clsid="{34CE4E44-20ED-4811-A3A2-80738A171F20}" description="Medialooks MFile Class" threadingModel="Neutral" progid="MPlatform.MFile.1">
+         <progid>MPlatform.MFile</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.FileFFM.x64.dll">
+      <comClass clsid="{D6FC798C-B43E-43EB-B135-5F87CF93B984}" description="MFileFFM_I Class" threadingModel="Neutral" progid="MFileFFM.MFileFFM_I.1">
+         <progid>MFileFFM.MFileFFM_I</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.FilterFFM.x64.dll">
+      <comClass clsid="{92864720-72D1-4BF8-B860-D9600BD8A104}" description="MAudioFFM Class" threadingModel="Neutral"/>
+      <comClass clsid="{B69932C1-DE12-4C17-A205-7CF52B719636}" description="MFilterFFM Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Live.x64.dll">
+      <comClass clsid="{84494D2B-A9ED-482C-A147-03F6675342C3}" description="Medialooks MLive class" threadingModel="Neutral" progid="MPlatform.MLive.1">
+         <progid>MPlatform.MLive</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Mixer.x64.dll">
+      <comClass clsid="{34CE4E64-20ED-4811-A3A2-80738A171F20}" description="Medialooks MMixer Class" threadingModel="Neutral" progid="MPlatform.MMixer.1">
+         <progid>MPlatform.MMixer</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Platform.x64.dll">
+      <comClass clsid="{4985960B-08F5-4C7A-B439-3255A8A8E9E4}" description="Medialooks MProxy Class" threadingModel="Neutral" progid="MPlatform.MProxy.1">
+         <progid>MPlatform.MProxy</progid>
+      </comClass>
+      <comClass clsid="{49859610-08F5-4C7A-B439-3255A8A8E9E4}" description="Medialooks MSync Class" threadingModel="Neutral" progid="MPlatform.MSync.1">
+         <progid>MPlatform.MSync</progid>
+      </comClass>
+      <comClass clsid="{4F365100-473F-4ad5-A5C2-428FE0C8E03E}" description="Medialooks MFactory Class" threadingModel="Neutral" progid="MPlatform.MFactory.1">
+         <progid>MPlatform.MFactory</progid>
+      </comClass>
+      <comClass clsid="{4F365165-473F-4ad5-A5C2-428FE0C8E03E}" description="Medialooks MFrames Class" threadingModel="Neutral" progid="MPlatform.MFrames.1">
+         <progid>MPlatform.MFrames</progid>
+      </comClass>
+      <comClass clsid="{A8C0EEAA-0E52-4F1F-AFCC-BBCB26587B73}" description="Medialooks MSenders Class" threadingModel="Neutral" progid="MPlatform.MSenders.1">
+         <progid>MPlatform.MSenders</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Playlist.x64.dll">
+      <comClass clsid="{34CE4E54-20ED-4811-A3A2-80738A171F20}" description="Medialooks MPlaylist Class" threadingModel="Neutral" progid="MPlatform.MPlaylist.1">
+         <progid>MPlatform.MPlaylist</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Plugin.CC.x64.dll">
+      <comClass clsid="{4102E84B-B00A-4351-B4A2-FED0C3FFDC86}" description="MCCDisplay Class" threadingModel="Neutral" progid="MCCDisplay.MCCDisplay.1">
+         <progid>MCCDisplay.MCCDisplay</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Plugin.CG.x64.dll">
+      <comClass clsid="{06D779D1-967F-4744-B62F-463F1B89AADE}" description="MLCharGenPage Class" threadingModel="apartment" progid="MLCharGen.MLCharGenPage">
+         <progid>MLCharGen.MLCharGenPage.1</progid>
+      </comClass>
+      <comClass clsid="{0F56D2E7-033C-4A05-BCDA-DF58C9BBF06F}" description="Medialooks Character Generator" threadingModel="Neutral" progid="MPlatform.CoMLCharGen.1">
+         <progid>MPlatform.CoMLCharGen</progid>
+      </comClass>
+      <comClass clsid="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" description="PSFactoryBuffer" threadingModel="both"/>
+   </file>
+   <file name="DLLs\Medialooks.Plugin.CK.x64.dll">
+      <comClass clsid="{F74E5C32-D592-4C20-A4E7-A470A713FF8A}" description="MKey Class" threadingModel="Neutral"/>
+      <comClass clsid="{FF12951C-DC32-42B7-B676-583883EF574E}" description="MChromaKey Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Plugin.Colors.x64.dll">
+      <comClass clsid="{8D54BB99-D639-4336-9C3A-17F2D0EAAFA0}" description="Medialooks MColors plugin" threadingModel="Neutral" progid="MColorsPlugin.CoMColors.1">
+         <progid>MColorsPlugin.CoMColors</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Plugin.Delay.x64.dll">
+      <comClass clsid="{40CD2744-06D8-4D57-ACD9-E1D523660AD4}" description="Medialooks MDelay plugin" threadingModel="Neutral" progid="MPlatform.MDelay.1">
+         <progid>MPlatform.MDelay</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Plugin.DTMF.x64.dll">
+      <comClass clsid="{E09BF84E-9028-4448-AD34-8CF08BB45565}" description="MFSignalingDTMF Class" threadingModel="Neutral" progid="MFSignalingDTMF.MFSignalingDTMF.1">
+         <progid>MFSignalingDTMF.MFSignalingDTMF</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Plugin.HTML.x64.dll">
+      <comClass clsid="{877DD976-9AB6-4366-A3DA-89A76FD8B547}" description="CoCEFObject Class" threadingModel="Neutral"/>
+      <comClass clsid="{F587E2D0-20B1-4C47-9586-1202D2447B04}" description="MFOverlayHTML Class" threadingModel="Neutral" progid="MFOverlayHTML.MFOverlayHTML.1">
+         <progid>MFOverlayHTML.MFOverlayHTML</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Preview.x64.dll">
+      <comClass clsid="{4985960C-08F5-4C7A-B439-3255A8A8E9E4}" description="Medialooks MPreview Class" threadingModel="Neutral" progid="MPlatform.MPreview.1">
+         <progid>MPlatform.MPreview</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Renderer.x64.dll">
+      <comClass clsid="{1417F704-2CFA-44E5-8517-20BF16016761}" description="Medialooks MRenderer Class" threadingModel="Neutral" progid="MPlatform.MRenderer.1">
+         <progid>MPlatform.MRenderer</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.Runtime.x64.dll">
+	  <comClass clsid="{0792B96A-E4CB-4140-B848-EE96C6660837}" description="Medialooks MFAudioBuffer Class" threadingModel="Neutral" progid="MFormats.MFAudioBuffer.1">
+         <progid>MFormats.MFAudioBuffer</progid>
+      </comClass>
+      <comClass clsid="{0792B97B-E4CB-4140-B848-EE96C6660837}" description="Medialooks MFConverter Class" threadingModel="Neutral" progid="MFormats.MFConverter.1">
+         <progid>MFormats.MFConverter</progid>
+      </comClass>
+      <comClass clsid="{21AFEE0C-F30E-4D29-B496-1DA4DA212A84}" description="Medialooks MTransport Sink" threadingModel="Neutral" progid="MPlatform.MSinkDS.1">
+         <progid>MPlatform.MSinkDS</progid>
+      </comClass>
+      <comClass clsid="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" description="PSFactoryBuffer" threadingModel="both"/>
+      <comClass clsid="{4F365177-473F-4ad5-A5C2-428FE0C8E03E}" description="Medialooks MFFactory Class" threadingModel="Neutral" progid="MFormats.MFFactory.1">
+         <progid>MFormats.MFFactory</progid>
+      </comClass>
+      <comClass clsid="{5902F643-CCFF-4EE5-8440-82D903492749}" description="Medialooks MTransport Source" threadingModel="Neutral" progid="MTransportDS.MSourceDS.1">
+         <progid>MTransportDS.MSourceDS</progid>
+      </comClass>
+      <comClass clsid="{8D54AB24-D639-4336-9C3A-17F2D0EAAFA0}" description="Medialooks MFSideData Class" threadingModel="Neutral" progid="MFormats.MFSideData.1">
+         <progid>MFormats.MFSideData</progid>
+      </comClass>
+      <comClass clsid="{8D54AB26-D639-4336-9C3A-17F2D0EAAFA0}" description="Medialooks MFPipe Class" threadingModel="Neutral" progid="MFormats.MFPipe.1">
+         <progid>MFormats.MFPipe</progid>
+      </comClass>
+      <comClass clsid="{C08B164D-5CCF-4251-B22F-27AAA7ECABF3}" description="Medialooks MFSink Class" threadingModel="Neutral" progid="MFormats.MFSink.1">
+         <progid>MFormats.MFSink</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.WebRTC.x64.dll">
+      <comClass clsid="{B9E821B4-D77D-4B28-B13E-62C0235F8C5C}" description="WebRTC_Core Class" threadingModel="Neutral"/>
+      <comClass clsid="{B9E821B5-D77D-4B28-B13E-62C0235F8C5C}" description="MWebRTC Class" threadingModel="Neutral"/>
+      <comClass clsid="{B9E821B6-D77D-4B28-B13E-62C0235F8C5C}" description="MWebRTC_Plugin Class" threadingModel="Neutral"/>
+      <comClass clsid="{B9E821B7-D77D-4B28-B13E-62C0235F8C5C}" description="MWebRTC_MFLive Class" threadingModel="Neutral"/>
+      <comClass clsid="{B9E821B8-D77D-4B28-B13E-62C0235F8C5C}" description="MWebRTC_MFRenderer Class" threadingModel="Neutral"/>
+   </file>
+   <file name="DLLs\Medialooks.Writer.x64.dll">
+      <comClass clsid="{C691860F-9C67-4D10-A275-2061E94F3B39}" description="Medialooks MWriter Class" threadingModel="Neutral" progid="MPlatform.MWriter.1">
+         <progid>MPlatform.MWriter</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\Medialooks.WriterFFM.x64.dll">
+      <comClass clsid="{6E9E7A13-D43A-4E1F-B1CB-856B860300DA}" description="MWriterFFM_I Class" threadingModel="Neutral" progid="MWriterFFM.CoMWriterFFM_I.1">
+         <progid>MWriterFFM.CoMWriterFFM_I</progid>
+      </comClass>
+   </file>
+   <file name="DLLs\MLProxy.dll">
+      <comClass clsid="{24465C14-816A-41E3-BC83-E1A04D502CF3}" description="PSFactoryBuffer" threadingModel="both"/>
+      <comClass clsid="{988CDFB8-09F0-43D4-BB86-B1613F41D940}" description="MediaLooks Proxy Module" threadingModel="both" progid="MLProxy.CoMLProxy.1">
+         <progid>MLProxy.CoMLProxy</progid>
+      </comClass>
+   </file>
+   <comInterfaceExternalProxyStub iid="{04FB0624-887B-4AEB-B30C-408E98E6B397}" name="IMFCache" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{04FBC164-877B-4AEB-B30C-408E98E6B397}" name="IMFSideData" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="12"/>
+   <comInterfaceExternalProxyStub iid="{04FBCB23-887B-4AEB-B30C-408E98E6B397}" name="IMFBuffer" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="9"/>
+   <comInterfaceExternalProxyStub iid="{04FBCB24-887B-4AEB-B30C-408E98E6B397}" name="IMFBuffersAllocator" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{04FBCB26-887B-4AEB-B30C-408E98E6B397}" name="IMFAllocator" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{04FBCF02-887B-4AEB-B30C-408E98E6B397}" name="IMFSplitter" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="10"/>
+   <comInterfaceExternalProxyStub iid="{04FBCF23-887B-4AEB-B30C-408E98E6B397}" name="IMFMuxer" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{04FBCF26-887B-4AEB-B30C-408E98E6B397}" name="IMFEncoder" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="7"/>
+   <comInterfaceExternalProxyStub iid="{04FBCF64-887B-4AEB-B30C-408E98E6B397}" name="IMFPacket" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{04FBCF79-887B-4AEB-B30C-408E98E6B397}" name="IMFDecoder" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="7"/>
+   <comInterfaceExternalProxyStub iid="{04FCCF22-887B-4AEB-B30C-408E98E6B397}" name="IMFPipes" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{04FCCF23-887B-4AEB-B30C-408E98E6B397}" name="IMFPipe_Source" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="16"/>
+   <comInterfaceExternalProxyStub iid="{04FCCF24-887B-4AEB-B30C-408E98E6B397}" name="IMFPipe" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="15"/>
+   <comInterfaceExternalProxyStub iid="{04FCCF26-887B-4AEB-B30C-408E98E6B397}" name="IMFObject" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{04FCCF27-887B-4AEB-B30C-408E98E6B397}" name="IMFBasicStream" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="9"/>
+   <comInterfaceExternalProxyStub iid="{082DA298-EEC4-4EF1-841E-3A280E7D0383}" name="IMElements" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{082DA299-EEC4-4EF1-841E-3A280E7D0383}" name="IMElement" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="40"/>
+   <comInterfaceExternalProxyStub iid="{082DA302-EEC4-4EF1-841E-3A280E7D0383}" name="IMScenes" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{082DA400-EEC4-4EF1-841E-3A280E7D0383}" name="IMWriter" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{082DA430-EEC4-4EF1-841E-3A280E7D0383}" name="IMConfig" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="33"/>
+   <comInterfaceExternalProxyStub iid="{10DB43C6-89AF-4CD2-90A4-FB91B32DB3E0}" name="IMFReader" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="15"/>
+   <comInterfaceExternalProxyStub iid="{10DB43D6-89AF-4CD2-90A4-FB91B32DB3E0}" name="IMFDevice" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{10DB4AB7-89AF-4CD2-90A4-FB91B32DB3E0}" name="IMFSink" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{10DB4AC7-89AF-4CD2-90A4-FB91B32DB3E0}" name="IMFWriter" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="12"/>
+   <comInterfaceExternalProxyStub iid="{19E97A90-BB5A-4446-897A-6A6177AF963E}" name="IMLCharGenEvents" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+   <comInterfaceExternalProxyStub iid="{19E97A91-BB5A-4446-897A-6A6177AF963E}" name="IMLCharGen" proxyStubClsid32="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="85"/>
+   <comInterfaceExternalProxyStub iid="{19E97A92-BB5A-4446-897A-6A6177AF963E}" name="IMLCharGenSchedule" proxyStubClsid32="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="19"/>
+   <comInterfaceExternalProxyStub iid="{19E97AA0-BB5A-4446-897A-6A6177AF963E}" name="IMLCharGenCallback" proxyStubClsid32="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{19E97AB0-BB5A-4446-897A-6A6177AF963E}" name="IMLCGObject" proxyStubClsid32="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{19E97AC0-BB5A-4446-897A-6A6177AF963E}" name="IMLCharGenEdit" proxyStubClsid32="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{24465C14-816A-41E3-BC83-E1A04D502CF3}" name="IMLProxy" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" numMethods="9"/>
+   <comInterfaceExternalProxyStub iid="{24465C17-816A-41E3-BC83-E1A04D502CF3}" name="IMLProxy2" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{24465C19-816A-41E3-BC83-E1A04D502CF3}" name="IMLProxy3" proxyStubClsid32="{00020424-0000-0000-C000-000000000046}" numMethods="13"/>
+   <comInterfaceExternalProxyStub iid="{2981E240-7AD9-4120-969C-F48668507DF8}" name="IMFCaptionsDecoder" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="5"/>
+   <comInterfaceExternalProxyStub iid="{2A29B2F5-A947-46DF-8E73-25B9F3C76534}" name="IMFDelay" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="4"/>
+   <comInterfaceExternalProxyStub iid="{3D8D5BCD-714F-4E15-B74B-ECB20D6A1134}" name="IMLXMLPersist" proxyStubClsid32="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" name="IMLProperties" proxyStubClsid32="{4D4C7A00-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="5"/>
+   <comInterfaceExternalProxyStub iid="{4F364005-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFConfig" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="5"/>
+   <comInterfaceExternalProxyStub iid="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFrames" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="9"/>
+   <comInterfaceExternalProxyStub iid="{4F365010-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFFactory" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="13"/>
+   <comInterfaceExternalProxyStub iid="{4F365017-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFCreator" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{4F365161-473F-4AD5-A5C2-428FE0C8E03E}" name="IMEvents" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+   <comInterfaceExternalProxyStub iid="{4F365171-473F-4AD5-A5C2-428FE0C8E03E}" name="IMEventsEvent" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+   <comInterfaceExternalProxyStub iid="{4F365172-473F-4AD5-A5C2-428FE0C8E03E}" name="IMEventsFrame" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}"/>
+   <comInterfaceExternalProxyStub iid="{4F366000-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFrame" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="20"/>
+   <comInterfaceExternalProxyStub iid="{4F366001-473F-4AD5-A5C2-428FE0C8E03E}" name="IMAttributes" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="24"/>
+   <comInterfaceExternalProxyStub iid="{4F366002-473F-4AD5-A5C2-428FE0C8E03E}" name="IMNode" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="42"/>
+   <comInterfaceExternalProxyStub iid="{4F366005-473F-4AD5-A5C2-428FE0C8E03E}" name="IMCallback" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="5"/>
+   <comInterfaceExternalProxyStub iid="{4F366020-473F-4AD5-A5C2-428FE0C8E03E}" name="IMProps" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="13"/>
+   <comInterfaceExternalProxyStub iid="{4F366025-473F-4AD5-A5C2-428FE0C8E03E}" name="IMSync" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{4F366030-473F-4AD5-A5C2-428FE0C8E03E}" name="IMPersist" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{4F366100-473F-4AD5-A5C2-428FE0C8E03E}" name="IMObject" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="14"/>
+   <comInterfaceExternalProxyStub iid="{4F366105-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFormat" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{4F366110-473F-4AD5-A5C2-428FE0C8E03E}" name="IMAudio" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="12"/>
+   <comInterfaceExternalProxyStub iid="{4F366111-473F-4AD5-A5C2-428FE0C8E03E}" name="IMAudioTrack" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="17"/>
+   <comInterfaceExternalProxyStub iid="{4F366140-473F-4AD5-A5C2-428FE0C8E03E}" name="IMReceiver" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{4F366155-473F-4AD5-A5C2-428FE0C8E03E}" name="IMSenders" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{4F366160-473F-4AD5-A5C2-428FE0C8E03E}" name="IMPreview" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="12"/>
+   <comInterfaceExternalProxyStub iid="{4F366170-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFile" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="21"/>
+   <comInterfaceExternalProxyStub iid="{4F366172-473F-4AD5-A5C2-428FE0C8E03E}" name="IMItem" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="30"/>
+   <comInterfaceExternalProxyStub iid="{4F366175-473F-4AD5-A5C2-428FE0C8E03E}" name="IMPlaylist" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="15"/>
+   <comInterfaceExternalProxyStub iid="{4F366177-473F-4AD5-A5C2-428FE0C8E03E}" name="IMBreaks" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="10"/>
+   <comInterfaceExternalProxyStub iid="{4F366178-473F-4AD5-A5C2-428FE0C8E03E}" name="IMScheduler" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="12"/>
+   <comInterfaceExternalProxyStub iid="{4F366180-473F-4AD5-A5C2-428FE0C8E03E}" name="IMDevice" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{4F366190-473F-4AD5-A5C2-428FE0C8E03E}" name="IMPlugins" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="10"/>
+   <comInterfaceExternalProxyStub iid="{4F366705-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFFormat" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{4F366720-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFProps" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="13"/>
+   <comInterfaceExternalProxyStub iid="{4F366A00-473F-4AD5-A5C2-428FE0C8E03E}" name="IMObject_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="9"/>
+   <comInterfaceExternalProxyStub iid="{4F367000-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFactory" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="13"/>
+   <comInterfaceExternalProxyStub iid="{4F367777-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFrame_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="30"/>
+   <comInterfaceExternalProxyStub iid="{4F367778-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFrames_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="14"/>
+   <comInterfaceExternalProxyStub iid="{4F367A05-473F-4AD5-A5C2-428FE0C8E03E}" name="IMSender_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{4F367A10-473F-4AD5-A5C2-428FE0C8E03E}" name="IMReceiver_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{4F367A40-473F-4AD5-A5C2-428FE0C8E03E}" name="IMDevice_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="7"/>
+   <comInterfaceExternalProxyStub iid="{4F377000-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFFrame" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="48"/>
+   <comInterfaceExternalProxyStub iid="{4F37703A-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFPersist" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{4F377264-473F-4AD5-A5C2-428FE0C8E03E}" name="IMFFrameGPU" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="52"/>
+   <comInterfaceExternalProxyStub iid="{52DB5EBD-1414-47F8-9AB8-50C35A4D67FE}" name="IMDelay" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="8"/>
+   <comInterfaceExternalProxyStub iid="{59CDAE09-351A-4711-B088-7C7963300FE7}" name="IMWebRTC" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="13"/>
+   <comInterfaceExternalProxyStub iid="{5F366195-473F-4AD5-A5C2-428FE0C8E03E}" name="IMPlugin" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{69429619-9BC2-45D9-AFE9-F42F18C38CBF}" name="IMStreams" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="12"/>
+   <comInterfaceExternalProxyStub iid="{6EC50BAF-7252-48B1-B8FE-ABAF44B027D6}" name="IMFSignalingDTMF" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{7713D728-4BA5-44D4-8A58-C6CD66C8AB86}" name="IMCCDisplay" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="3"/>
+   <comInterfaceExternalProxyStub iid="{78447514-8A6A-42E3-BA83-E1204D512CF3}" name="IMLProxyInt" proxyStubClsid32="{24465C14-816A-41E3-BC83-E1A04D502CF3}" numMethods="4"/>
+   <comInterfaceExternalProxyStub iid="{7F366131-473F-4AD5-A5C2-428FE0C8E03E}" name="IMDeckControl" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="35"/>
+   <comInterfaceExternalProxyStub iid="{82503DDF-C56C-4AB9-BBC8-63F4F1A93CF2}" name="IMSinkDS" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="4"/>
+   <comInterfaceExternalProxyStub iid="{8A3FFE4F-51C3-4056-B407-B3BD7FF62342}" name="IMStorage" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="27"/>
+   <comInterfaceExternalProxyStub iid="{9470BBBC-F37F-47CA-9FA5-F130E9605875}" name="IMColors" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="7"/>
+   <comInterfaceExternalProxyStub iid="{9FDA39AE-4090-43C8-A919-3A01CBF51EC3}" name="IMSourceDS" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="6"/>
+   <comInterfaceExternalProxyStub iid="{B22982A1-E0D5-4977-847D-868F5F0BB90F}" name="IMFAudioBuffer" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="20"/>
+   <comInterfaceExternalProxyStub iid="{B22982B1-E0D5-4977-847D-868F5F0BB90F}" name="IMFConverter" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="5"/>
+   <comInterfaceExternalProxyStub iid="{B22982B5-E0D5-4977-847D-868F5F0BB90F}" name="IMFProcess" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="4"/>
+   <comInterfaceExternalProxyStub iid="{B22982B7-E0D5-4977-847D-868F5F0BB90F}" name="IMFTransition" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="5"/>
+   <comInterfaceExternalProxyStub iid="{CD799A77-3FD4-4237-92D4-D187B588D999}" name="IMFSource_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="11"/>
+   <comInterfaceExternalProxyStub iid="{CD799B77-3FD4-4237-92D4-D187B588D999}" name="IMFSource" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="10"/>
+   <comInterfaceExternalProxyStub iid="{CD799B78-3FD4-4237-92D4-D187B588D999}" name="IMFSourceVB6" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="4"/>
+   <comInterfaceExternalProxyStub iid="{CD799F70-3FD4-4237-92D4-D187B588D999}" name="IMSource" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="5"/>
+   <comInterfaceExternalProxyStub iid="{CD799F77-3FD4-4237-92D4-D187B588D999}" name="IMSource_I" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="10"/>
+   <comInterfaceExternalProxyStub iid="{CD799F79-3FD4-4237-92D4-D187B588D999}" name="IMFExternal" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="7"/>
+   <comInterfaceExternalProxyStub iid="{CD799F87-3FD4-4237-92D4-D187B588D999}" name="IMFReceiver" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="4"/>
+   <comInterfaceExternalProxyStub iid="{CD799F88-3FD4-4237-92D4-D187B588D999}" name="IMFReceiverVB6" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="4"/>
+   <comInterfaceExternalProxyStub iid="{D4BA348C-2C10-47D8-923C-4B780683F39D}" name="IMFBrowser" proxyStubClsid32="{4F365000-473F-4AD5-A5C2-428FE0C8E03E}" numMethods="13"/>
+</assembly>

@@ -1,0 +1,16 @@
+{
+	"files":[
+		{"filePath":"e:\\record\\buz.mxf", 
+		"inPoint":10.0,
+		"outPoint":20,
+		transition:""},
+		{"filePath":"e:\\record\\buz.mxf", 
+		"inPoint":20.0,
+		"outPoint":30,
+		transition:""}
+
+	],
+	"output":{
+		"path":"e:\\record\\deneme.mxf"
+	}
+}
